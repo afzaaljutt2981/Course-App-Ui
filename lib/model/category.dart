@@ -15,7 +15,7 @@ var categoriesData = [
     'image': "assets/images/photography.png"
   },
   {"name": "Business", 'courses': 17, 'image': "assets/images/business.png"},
-];
+]; 
 
 List<Category> categories = categoriesData
     .map((Map<String, dynamic> item) =>
